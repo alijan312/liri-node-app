@@ -1,3 +1,5 @@
+THE IMAGES OF USER INPUT AND APPROPRIATE RESPONSES ARE IN IMAGES FOLDER.
+
 LIRI Bot
 Overview
 In this assignment, I made LIRI. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data.
@@ -12,6 +14,7 @@ LIRI Bot can take in one of the following commands:
 
 4. do-what-it-says
 =====================================================================================
+
 1. node liri.js concert-this <artist/band name here>
 
 This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
@@ -23,6 +26,7 @@ Venue location
 Date of the Event (use moment to format this as "MM/DD/YYYY")
 
 =====================================================================================
+
 2. node liri.js spotify-this '<song name here>'
 
 This will show the following information about the song in the terminal/bash window
@@ -60,12 +64,11 @@ If you haven't watched "Mr. Nobody," then you should: http://www.imdb.com/title/
 It's on Netflix!
 
 =====================================================================================
+
 4. node liri.js do-what-it-says
 
 Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
 It should run spotify-this for "I Want it That Way," as follows the text in random.txt.
-
-THE IMAGES OF USER INPUT AND APPROPRIATE RESPONSES ARE IN IMAGES FOLDER.
 
 
